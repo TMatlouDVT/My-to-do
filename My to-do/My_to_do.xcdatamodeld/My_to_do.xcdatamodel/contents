@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="12141" systemVersion="16E195" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Auto" representedClassName="Auto" syncable="YES" codeGenerationType="class">
+        <attribute name="auto" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Custom" representedClassName="Custom" syncable="YES" codeGenerationType="class">
+        <attribute name="custom" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Food" representedClassName="Food" syncable="YES" codeGenerationType="class">
+        <attribute name="food" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Home" representedClassName="Home" syncable="YES" codeGenerationType="class">
+        <attribute name="home" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Popular" representedClassName="Popular" syncable="YES" codeGenerationType="class">
+        <attribute name="auto" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="food" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="home" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="work" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Work" representedClassName="Work" syncable="YES" codeGenerationType="class">
+        <attribute name="work" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Popular" positionX="-63" positionY="-18" width="128" height="105"/>
+        <element name="Custom" positionX="-54" positionY="18" width="128" height="60"/>
+        <element name="Work" positionX="-36" positionY="27" width="128" height="60"/>
+        <element name="Food" positionX="-18" positionY="36" width="128" height="60"/>
+        <element name="Home" positionX="0" positionY="54" width="128" height="60"/>
+        <element name="Auto" positionX="18" positionY="72" width="128" height="60"/>
+    </elements>
+</model>
